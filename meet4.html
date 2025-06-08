@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Meet Our Children | Hope and Faith Center</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+    p.intro {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .children-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .child-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+    .child-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    .child-photo {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    .child-name {
+      font-size: 1.4rem;
+      color: #2c3e50;
+      margin: 0 0 5px 0;
+    }
+    .child-age {
+      color: #888;
+      margin: 0 0 12px 0;
+      font-weight: 600;
+    }
+    .child-description {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.4;
+    }
+    .donate-section {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .donate-section a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .donate-section a:hover {
+      background-color: #219150;
+    }
+    @media (max-width: 600px) {
+      .child-card {
+        width: 90%;
+      }
+      .child-photo {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Meet Our Children</h1>
+  <p class="intro">
+    At Hope and Faith Center, each child has a unique story, dreams, and a bright future ahead. Get to know the children who inspire us every day with their resilience, smiles, and hope.
+  </p>
+
+  <div class="children-container">
+
+    <div class="child-card">
+      <img src="child-photo-1.jpg" alt="Grace A." class="child-photo" />
+      <h2 class="child-name">Grace A.</h2>
+      <p class="child-age">Age: 8 years</p>
+      <p class="child-description">Grace loves painting and dreams of becoming a teacher one day. She’s known for her bright smile and kind heart.</p>
+    </div>
+
+    <div class="child-card">
+      <img src="child-photo-2.jpg" alt="David K." class="child-photo" />
+      <h2 class="child-name">David K.</h2>
+      <p class="child-age">Age: 10 years</p>
+      <p class="child-description">David enjoys playing soccer and has a passion for learning about science. His dream is to become an engineer.</p>
+    </div>
+
+    <div class="child-card">
+      <img src="child-photo-3.jpg" alt="Sarah M." class="child-photo" />
+      <h2 class="child-name">Sarah M.</h2>
+      <p class="child-age">Age: 7 years</p>
+      <p class="child-description">Sarah is a bright student who loves reading storybooks and hopes to become a nurse to help others.</p>
+    </div>
+
+    <!-- Add more children as needed -->
+  </div>
+
+  <div class="donate-section">
+    <p>Want to help change a child’s life?</p>
+    <a href="donate.html">Donate Now</a>
+  </div>
+
+</body>
+</html>
